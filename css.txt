@@ -1,0 +1,77 @@
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fa; /* Warna background abu-abu sangat muda */
+    }
+
+    /* Kustomisasi Warna Hijau untuk Navbar */
+    .bg-custom-green {
+      background-color: #0f854b !important;
+    }
+
+    .navbar-brand, .nav-link {
+      color: #ffffff !important;
+    }
+    
+    .nav-link:hover {
+      color: #d1e7dd !important;
+    }
+
+    /* Kustomisasi Kartu Form */
+    .custom-card {
+      border: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+      background-color: #ffffff;
+    }
+
+    /* Kustomisasi Input Form Bergaya Statis Tradisional (Bukan Label Melayang) */
+    .form-group label {
+      font-weight: 500;
+      color: #495057;
+      margin-bottom: 6px;
+      display: block;
+      font-size: 0.9rem;
+    }
+
+    .custom-input {
+      border: 1px solid #ced4da !important;
+      border-radius: 4px !important;
+      padding: 10px 12px !important;
+      font-size: 0.9rem;
+    }
+
+    .custom-input:focus {
+      border-color: #0f854b !important;
+      box-shadow: 0 0 0 0.2rem rgba(15, 133, 75, 0.25) !important;
+    }
+
+    /* Kustomisasi Tombol Hijau */
+    .btn-custom-submit {
+      background-color: #0f854b !important;
+      color: white !important;
+      font-weight: 500;
+      padding: 10px;
+      border-radius: 4px;
+      text-transform: none; /* Menghilangkan huruf kapital semua bawaan MDB */
+      font-size: 0.95rem;
+      box-shadow: none !important;
+    }
+
+    .btn-custom-submit:hover {
+      background-color: #0c6e3e !important;
+    }
+
+    /* Tautan Lupa Password */
+    .forgot-link {
+      color: #0f854b !important;
+      text-decoration: underline;
+      font-size: 0.9rem;
+    }
+    
+    .forgot-link:hover {
+      color: #0c6e3e !important;
+    }
+  </style>
+</head>
+<body>
